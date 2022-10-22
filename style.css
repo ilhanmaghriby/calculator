@@ -15,8 +15,8 @@ body {
 }
 
 .profil {
-  padding: 40px;
-  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
   width: 100vw;
   display: grid;
   place-items: center;
+  justify-content: center;
 }
 
 .calculator {
@@ -37,7 +38,7 @@ body {
 
 #display {
   margin: 0 10px;
-  height: 150px;
+  height: 100px;
   width: auto;
   max-width: 270px;
   display: flex;
