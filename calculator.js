@@ -13,6 +13,8 @@ buttons.forEach((item) => {
     } else if (display.innerText == '' && item.id == 'equal') {
       display.innerText = 'Empty!';
       setTimeout(() => (display.innerText = ''), 2000);
+    } else if (item.id == '%') {
+      display.innerText = display.innerText / 100;
     } else {
       display.innerText += item.id;
     }
